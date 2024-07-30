@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+</head>
+
+<body> 
+    
+    <div class="container">
+
+        <div class="backgroundimage">
+            <img src="background.jpeg" alt="background img">
+        </div>
+        <div class="formPart">
+            
+            <p class="firstP">This is not a real service blah blah blah</p>
+
+            <form action="" method="get">
+              <div class="column1">
+                  <label for="text">First Name:</label>
+                  <input type="text" id="first_name" name="first_name">
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="user_email" name="user_email">
+
+                  <label for="password">*Password:</label>
+                  <input type="password" id="user_password" name="user_password" 
+                  minlength="8" maxlength="16" title="Password must contain atleast 8 characters including numbers
+                  and some special characters" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required
+                  autocomplete="off">
+
+                </div>
+
+              <div class="column2">
+                  <label for="text">Last Name:</label>
+                  <input type="text" id="last_name" name="last_name">
+            
+                  <label for="number">Phone Number:</label>
+                  <input type="number" id="phone_number" name="phone_number">
+
+                  <label for="password">*Confirm Password:</label>
+                  <input type="password" id="confirm_password" name="confirm_password" 
+                  minlength="8" maxlength="16" title="Password must contain atleast 8 characters including numbers
+                  and some special characters" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                  autocomplete="off">
+                  <p class="input-error">*Passwords doesn't match.</p>
+              </div>
+
+              <button type="submit" name="submit">Create Account</button>
+
+              
+
+            </form>
+           
+
+            <div class="latetext">
+                <p>Already have an Account?</p>
+                <a href="#" target="_blank">Log in</a>
+            </div>
+                 
+                
+        </div>
+
+</div>
+<div>
+    
+    
+</div>
+
+
+    
+</body>
+</html>

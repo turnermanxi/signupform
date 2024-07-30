@@ -1,0 +1,101 @@
+.container {
+    text-align: left;
+}
+
+.container .formPart {
+    padding: 50px 100px;
+}
+
+.container .formPart form {
+    
+    padding: 10px 20px;
+    background-color: rgb(199, 197, 194);
+    justify-items: left;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 40px 40px 40px;
+    gap: 60px;
+    width: 50%;
+    position: absolute;
+    margin-left: 31.2%;
+    margin-top: 10%;
+
+}
+
+.container .formPart form .column1
+.container .formPart form .column2 {
+    gap: 60px;
+}
+
+.container .formPart form label {
+    margin: 20px 0 5px 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 70%;
+  }
+
+.container .formPart form input {
+    font-size: 13px;
+    padding: 5px 50px;
+    width: 50px;
+    gap: 10px;
+    border-radius: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline;
+  }
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    width: 40%;
+    height: 700px;
+    align-content: right;
+    float: left;
+    
+}
+
+.firstP {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+    
+.container .formPart form button {
+    gap: 20px;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 30%;
+    color: green;
+    border-radius: 15px;
+    border: green;
+    background-color: aquamarine;
+    opacity: 75%;
+    padding: 12px;
+    outline: transparent;
+    
+   
+}
+
+.container .formPart form input:focus {
+    border: 5px solid blue;
+}
+
+.container .formPart form input:focus:invalid {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.container .formPart form .input-error {
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}
+
+.container .latetext {
+    position: relative;
+    margin-top: 40%;
+}
